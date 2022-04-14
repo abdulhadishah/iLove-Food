@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.navbar-brand {
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-brand:hover {
+    color: #f81a5d;
+    -webkit-text-stroke: 0.2px #000000;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #f81a5d;
+    -webkit-text-stroke: 0.2px #000000;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid #f81a5d;
+}
+
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: #f81a5d;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.btn0:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border: solid 1px #f81a5d;
+    text-shadow: 0 0 3px #f81a5d;
+    -webkit-text-stroke: 0.2px #f81a5d;
+    transition: 0.5s;
+}
+
+/* section 1 */
+.main {
+    background: url(./images/Pepperoni\ Pizza\ on\ Plate.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 4rm;
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 0 0 3px #f81a5d;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #f81a5d;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover {
+    background-color: #ffffff35;
+    color: #f81a5d;
+    border: solid 1px #f81a5d;
+    text-shadow: 0 0 3px #ffffff;
+    transition: 0.5s;
+}
+
+.field {
+    padding-top: 15rem;
+}
+
+/* section 1 */
+.img {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 10%;
+}
+
+/* section 2 */
+.bg-color{
+    background-color: #00000005;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+}
+
+/* section 3 */
+.food{
+    background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(images/Man\ Wearing\ a\ Face\ Mask\ Delivering\ Pizza.jpg) no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+
+.food h1{
+    font-family: 'Lobster', cursive;
+}
+
+.food h6{
+    text-shadow: 0 0 3px #f81a5d;
+}
+
+.text {
+    padding-top: 9rem!important;
+}
+
+/* contact */
+@media only screen and (max-width: 600px) {
+    .col-lg-7.form {
+        margin-left: 1px;
+        padding-right: 2.1rem;
+  }
+}
+
+/* footer */
+
+.d-flex.gap-2.sub {
+    gap: 0.5rem!important;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
