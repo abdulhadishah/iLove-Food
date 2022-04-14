@@ -60,6 +60,17 @@
     transition: 0.5s;
 }
 
+/* mobile */
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #f81a5d00;
+    border: 2px solid #f81a5d;
+    border-radius: 100rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
 /* section 1 */
 .main {
     background: url(./images/Pepperoni\ Pizza\ on\ Plate.jpg) no-repeat;
